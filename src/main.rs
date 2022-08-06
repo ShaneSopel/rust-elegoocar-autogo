@@ -16,7 +16,6 @@ fn main() -> !
     let mut motor3  = pins.d9.into_output();
     let mut motor4  = pins.d11.into_output();
 
-    init_pins();
     loop {
         // Moving Forward 1 Second
         input5.toggle();
